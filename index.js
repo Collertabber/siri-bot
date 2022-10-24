@@ -17,7 +17,7 @@ client.onPost = async (post) => {
     if (post.author.id != "624bbe3fa95b113f1038140c") {
       setTimeout(function( ) {
         resetTimeout()
-        post.chat(`Im now connected to ${post.author.username}'s post!`)
+        post.chat(`Test`)
       }, 2000)
     } else {
       post.chat(`Fuck off horny bitch`)
