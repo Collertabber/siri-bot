@@ -2,7 +2,7 @@ import { Client } from "photop-client";
 import { onChat } from "./commands_entry.js";
 import { START, PREFIX } from "./constants.js";
 
-const client = new Client({ username: "Apple_Siri", password: "Marley2011%%^&!" }, { logSocketMessages: false });
+const client = new Client({ username: "Siri_test_bot", password: "Marley2011%%^&!" }, { logSocketMessages: false });
 
 const noop = () => { };
 
